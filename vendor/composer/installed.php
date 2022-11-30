@@ -184,6 +184,15 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'haruncpi/laravel-user-activity' => array(
+            'pretty_version' => 'v1.0.5',
+            'version' => '1.0.5.0',
+            'reference' => '148e034aa92e02886da17c7fd6173ba960cac1af',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../haruncpi/laravel-user-activity',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'illuminate/auth' => array(
             'dev_requirement' => false,
             'replaced' => array(

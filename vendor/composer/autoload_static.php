@@ -144,6 +144,10 @@ class ComposerStaticInit511f9b50f6f4fbe56e549c7f51233b2b
             'Illuminate\\Support\\' => 19,
             'Illuminate\\' => 11,
         ),
+        'H' => 
+        array (
+            'Haruncpi\\LaravelUserActivity\\' => 29,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -475,6 +479,10 @@ class ComposerStaticInit511f9b50f6f4fbe56e549c7f51233b2b
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Haruncpi\\LaravelUserActivity\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -1668,6 +1676,15 @@ class ComposerStaticInit511f9b50f6f4fbe56e549c7f51233b2b
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Haruncpi\\LaravelUserActivity\\Console\\UserActivityDelete' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Console/UserActivityDelete.php',
+        'Haruncpi\\LaravelUserActivity\\Console\\UserActivityInstall' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Console/UserActivityInstall.php',
+        'Haruncpi\\LaravelUserActivity\\Controllers\\ActivityController' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Controllers/ActivityController.php',
+        'Haruncpi\\LaravelUserActivity\\EventServiceProvider' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/EventServiceProvider.php',
+        'Haruncpi\\LaravelUserActivity\\Listeners\\LockoutListener' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Listeners/LockoutListener.php',
+        'Haruncpi\\LaravelUserActivity\\Listeners\\LoginListener' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Listeners/LoginListener.php',
+        'Haruncpi\\LaravelUserActivity\\Models\\Log' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Models/Log.php',
+        'Haruncpi\\LaravelUserActivity\\ServiceProvider' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/ServiceProvider.php',
+        'Haruncpi\\LaravelUserActivity\\Traits\\Loggable' => __DIR__ . '/..' . '/haruncpi/laravel-user-activity/src/Traits/Loggable.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
