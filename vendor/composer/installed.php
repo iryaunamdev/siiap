@@ -10,6 +10,15 @@
         'dev' => true,
     ),
     'versions' => array(
+        'amendozaaguiar/laraveles-spanish-for-jetstream' => array(
+            'pretty_version' => '1.7.0',
+            'version' => '1.7.0.0',
+            'reference' => '89be6c9c32919e53b26903090f27277b01f58f29',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../amendozaaguiar/laraveles-spanish-for-jetstream',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'bacon/bacon-qr-code' => array(
             'pretty_version' => '2.0.7',
             'version' => '2.0.7.0',
