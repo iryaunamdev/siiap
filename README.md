@@ -10,3 +10,5 @@
     Acceso: [http://example.com/logs]
 * Laravel UserActivity [https://github.com/haruncpi/laravel-user-activity]
     Acceso: [http://example.com/admin/user-activity]
+* tw-elements [https://tailwind-elements.com/quick-start/]
+* flowbite [https://flowbite.com/docs/getting-started/quickstart/]
