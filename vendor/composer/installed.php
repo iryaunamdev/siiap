@@ -863,6 +863,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'rap2hpoutre/laravel-log-viewer' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => '52e7c703a1e83cdae450f406c7d8472332dfb34e',
+            'type' => 'laravel-package',
+            'install_path' => __DIR__ . '/../rap2hpoutre/laravel-log-viewer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'rhumsaa/uuid' => array(
             'dev_requirement' => false,
             'replaced' => array(
