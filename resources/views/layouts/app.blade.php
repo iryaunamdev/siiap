@@ -16,23 +16,24 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased bg-gray-100">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="h-screen overflow-auto">
             @livewire('navigation-menu')
 
             <!-- Page Content -->
-            <main>
-                <aside class="w-64 block" aria-label="Sidebar">
-
+            <main class="flex items-left justify-left">
+                <aside class="hidden md:block md:visible md:w-1/6 " aria-label="Sidebar">
+                    @livewire('sys.sidemenu')
                 </aside>
 
-                <section class="block">
+                <section class="w-full md:w-5/6">
                     {{ $slot }}
 
-                    <footer>
-
+                    <footer class="text-xs text-center text-gray-400 py-4 px-8">
+                        Sistema Integral de Información Académica de Posgrado<br>
+                        Instituto de Radioastronomía y Astrofísica | UNAM Campus Morelia
                     </footer>
                 </section>
             </main>
@@ -41,5 +42,6 @@
         @stack('modals')
 
         @livewireScripts
+        @yield('scripts')
     </body>
 </html>

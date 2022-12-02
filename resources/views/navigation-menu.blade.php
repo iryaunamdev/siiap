@@ -11,15 +11,18 @@
                 </div>
 
                 <!-- Navigation Links -->
+                {{---
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
+                --}}
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <!-- Teams Dropdown -->
+                {{--
                 @if (Laravel\Jetstream\Jetstream::hasTeamFeatures())
                     <div class="ml-3 relative">
                         <x-jet-dropdown align="right" width="60">
@@ -68,11 +71,17 @@
                         </x-jet-dropdown>
                     </div>
                 @endif
+                --}}
 
                 <!-- Settings Dropdown -->
                 <div class="ml-3 relative">
                     <x-jet-dropdown align="right" width="48">
                         <x-slot name="trigger">
+                            <button class="flex text-sm border-1 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition">
+                                <span class="py-1 px-2 mr-2">{{ Auth::user()->name }}</span>
+                                <img class="h-8 w-8 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
+                            </button>
+                            {{--
                             @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
                                 <button class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition">
                                     <img class="h-8 w-8 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
@@ -88,6 +97,7 @@
                                     </button>
                                 </span>
                             @endif
+                            --}}
                         </x-slot>
 
                         <x-slot name="content">
@@ -180,6 +190,7 @@
                 </form>
 
                 <!-- Team Management -->
+                {{--
                 @if (Laravel\Jetstream\Jetstream::hasTeamFeatures())
                     <div class="border-t border-gray-200"></div>
 
@@ -188,6 +199,7 @@
                     </div>
 
                     <!-- Team Settings -->
+
                     <x-jet-responsive-nav-link href="{{ route('teams.show', Auth::user()->currentTeam->id) }}" :active="request()->routeIs('teams.show')">
                         {{ __('Team Settings') }}
                     </x-jet-responsive-nav-link>
@@ -209,6 +221,7 @@
                         <x-jet-switchable-team :team="$team" component="jet-responsive-nav-link" />
                     @endforeach
                 @endif
+                --}}
             </div>
         </div>
     </div>
