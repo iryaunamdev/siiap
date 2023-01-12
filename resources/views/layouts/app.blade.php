@@ -11,13 +11,16 @@
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
+        @toastScripts
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Styles -->
         @livewireStyles
+
     </head>
     <body class="font-sans antialiased bg-gray-100">
         <x-jet-banner />
+        <livewire:toasts />
 
         <div class="h-screen overflow-auto">
             @livewire('navigation-menu')
@@ -41,6 +44,7 @@
 
         @stack('modals')
 
+        @toastScripts
         @livewireScripts
         @yield('scripts')
     </body>

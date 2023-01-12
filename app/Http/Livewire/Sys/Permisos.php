@@ -40,15 +40,6 @@ class Permisos extends Component
 
     public function storeRole()
     {
-        $this->validate([
-            'name'=>'required',
-        ]);
-
-        Role::createOrUpdate(
-            ['id'=>$this->role->id],
-            ['name'=>$this->name]
-        );
-
-        toast()->success("El rol se creó/actualizo correctamente.")->push();
+        notify()->success('Welcome to Laravel Notify ⚡️');
     }
 }
