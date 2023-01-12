@@ -12,4 +12,4 @@
     Acceso: [http://example.com/admin/user-activity]
 * tw-elements [https://tailwind-elements.com/quick-start/]
 * flowbite [https://flowbite.com/docs/getting-started/quickstart/]
-* Laravel Notify 2.0 (notificaciones y alertas) [https://github.com/mckenziearts/laravel-notify]
+* Laravel Tall Toasts [https://github.com/usernotnull/tall-toasts]
