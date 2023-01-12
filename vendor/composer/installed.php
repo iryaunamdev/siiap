@@ -535,6 +535,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'mckenziearts/laravel-notify' => array(
+            'pretty_version' => 'v2.3',
+            'version' => '2.3.0.0',
+            'reference' => 'a75449fcc1a3e50ac8d1d41a026142461017b4ca',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mckenziearts/laravel-notify',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'mobiledetect/mobiledetectlib' => array(
             'pretty_version' => '2.8.41',
             'version' => '2.8.41.0',

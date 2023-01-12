@@ -1,3 +1,113 @@
-.button{
-    color: aliceblue;
+.btn {
+    @apply px-6 py-2.5;
+}
+
+.btn-sm
+{
+    @apply px-4 py-1.5;
+}
+
+.btn-primary {
+    @apply bg-sky-600 text-white font-medium text-xs leading-tight uppercase hover:bg-sky-700 focus:bg-sky-700 focus:ring-0 active:bg-sky-800 transition duration-150 ease-in-out;
+}
+
+.btn-secondary {
+    @apply bg-slate-600 text-white font-medium text-xs leading-tight uppercase hover:bg-slate-700 focus:bg-slate-700 focus:ring-0 active:bg-slate-800 transition duration-150 ease-in-out;
+}
+
+.btn-blank {
+
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white font-medium text-xs leading-tight uppercase hover:bg-red-700 focus:bg-red-700 focus:ring-0 active:bg-red-800 transition duration-150 ease-in-out
+}
+
+.container-1 {
+    @apply p-6 bg-white border-b border-gray-200;
+}
+
+.container-2 {
+    @apply bg-gray-200 bg-opacity-25;
+}
+
+.checkbox-1 {
+    @apply appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-700 checked:border-sky-700 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer;
+}
+
+.form-floating > textarea.form-control {
+    height: auto;
+}
+
+.input-floating {
+    @apply block w-full px-3 py-1.5 text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:outline-none;;
+}
+
+.input {
+    @apply px-3 py-1.5 text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:outline-none;;
+}
+
+.input-disabled, .input-inactive
+{
+    @apply bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+
+.link-primary{
+    @apply text-blue-500 hover:text-blue-600 transition duration-300 ease-in-out;
+}
+
+.link-secondary{
+    @apply text-slate-700 hover:text-slate-500 transition duration-300 ease-in-out;
+}
+
+.link-error {
+    @apply text-red-600 hover:text-red-700 transition duration-300 ease-in-out;
+}
+
+.side-link{
+    @apply flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white;
+}
+
+.table-1 {
+    @apply w-full text-sm mb-4;
+}
+
+.table-1 > tbody{
+    @apply bg-white;
+}
+
+.table-1 > tbody > tr {
+    @apply border-b;
+}
+
+.table-1 > thead > tr{
+    @apply border-b;
+}
+
+.table-1 > thead > tr > th{
+    @apply text-gray-900 px-6 py-4;
+}
+
+.table-1 > tbody > tr > td{
+    @apply font-light px-6 py-2 whitespace-nowrap;
+}
+
+.title-1 {
+    @apply text-slate-700 md:ml-6 md:mt-8 md:text-2xl;
+}
+
+.title-2 {
+    @apply text-slate-700 md:ml-6 md:mt-8 md:text-xl;
+}
+
+.title-3 {
+    @apply text-lg text-sky-900 mb-4;
+}
+
+.title-4 {
+    @apply text-sky-900 font-bold mb-4;
+}
+
+.title-5 {
+    @apply text-sky-900 text-sm uppercase opacity-75 mb-4;
 }

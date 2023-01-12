@@ -1,4 +1,4 @@
+@import "./customize.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./customize.css";
