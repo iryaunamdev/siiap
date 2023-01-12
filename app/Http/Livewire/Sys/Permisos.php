@@ -6,9 +6,12 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use Spatie\Permission\Models\Role;
+use Usernotnull\Toast\Concerns\WireToast;
 
 class Permisos extends Component
 {
+    use WireToast;
+
     protected $authorizedRoles = [
         'Superadmin',
         'Administrador'
@@ -40,6 +43,6 @@ class Permisos extends Component
 
     public function storeRole()
     {
-        notify()->success('Welcome to Laravel Notify ⚡️');
+        toast()->success('Permiso modificdo/creado correctamente.')->push();
     }
 }

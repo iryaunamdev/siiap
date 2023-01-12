@@ -8,13 +8,10 @@ module.exports = {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js',
-        "./node_modules/flowbite/**/*.js"
-    ],
-
-    purge: [
+        "./node_modules/flowbite/**/*.js",
         './vendor/usernotnull/tall-toasts/config/**/*.php',
         './vendor/usernotnull/tall-toasts/resources/views/**/*.blade.php',
-    ]
+    ],
 
     theme: {
         extend: {
